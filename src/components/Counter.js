@@ -47,6 +47,7 @@ class Counter extends React.Component {
 
         <button onClick={this.iterateCounter}>{this.state.count}</button>
         {this.generatesDivBasedOnCount()}
+        {/* need to now add css to all of these divs */}
       </React.Fragment>
     );
   }
